@@ -28,7 +28,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: gurkancnk/customersegment:latest
+        tags: onrgumus/customer_segmentation_analysis:tagname
 
     - name: Logout from Docker Hub
       run: docker logout
